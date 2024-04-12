@@ -29,6 +29,32 @@ html {
   font-size: 62.5%;
 }
 
+.qt-sticky-container {
+  width: 80px;
+  height: 200px;
+  background-color: #feae33;
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  right: 0;
+  border-radius: 10px 0px 0px 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.qt-sticky-content {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transform: rotate(-90deg);
+}
+
+.qt-service-card-with-shadow {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
 /* p {
   font-family: Inter;
   font-size: clamp(1.8rem, 2vw, 2rem);
@@ -55,7 +81,28 @@ p.dark-theme {
   font-size: 2rem !important;
 } */
 
-.qt-progress-bar-container {
+.qt-not-found-section {
+  padding: 120px;
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/dark-form.png?t=2024-04-12T06%3A52%3A23.801Z");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.qt-not-found-section.light-theme {
+  background-color: var(--background-light);
+}
+
+.qt-not-found-section.dark-theme {
+  background-color: var(--background-dark);
+}
+
+.qt-not-found-main img {
+  height: auto;
+  max-width: 100%;
+}
+
+.qt-cyber-result-container {
   height: 60px;
   border-radius: 8px;
   border: 1px solid #0159dc;
@@ -63,9 +110,10 @@ p.dark-theme {
   width: 100%;
   padding: 0 !important;
 }
+
 .qt-btn-cybersecurity {
-  width: 220px;
-  height: 100px;
+  width: 180px;
+  height: 66px;
   border-radius: 50px;
   border: 1px solid #0159dc;
   background: #0159dc;
@@ -82,9 +130,20 @@ p.dark-theme {
   right: 0;
 }
 
-.qt-progress-bar {
+.qt-cyber-result-bar {
   height: 60px;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.qt-cybersecurity-main-block.light-theme {
+  background-color: #fff;
+}
+
+.qt-cybersecurity-main-block.dark-theme {
+  background-color: #1b1b1b;
 }
 .qt-cybersecurity-main-block {
   padding: 120px 0px;
@@ -93,6 +152,14 @@ p.dark-theme {
 .qt-cybersecurity-main-block-2 {
   padding: 50px 0px;
   background-color: #f6f8ff;
+}
+
+.qt-cybersecurity-main-block-2.light-theme {
+  background-color: #f6f8ff;
+}
+
+.qt-cybersecurity-main-block-2.dark-theme {
+  background-color: #1b283b;
 }
 
 .qt-cybersecurity-main-block-4 {
@@ -370,7 +437,7 @@ p.dark-theme {
 }
 
 .qt-blog-search-wrap input {
-  padding: 35px 35px 35px 80px;
+  padding: 20px 25px 20px 80px;
   border-radius: 50px;
   border: 1px solid #0159dc;
   background: #fff;
@@ -410,16 +477,17 @@ p.dark-theme {
 .qt-blog-search-icon {
   position: absolute;
   z-index: 5;
-  top: 35px;
-  margin-left: 35px;
+  top: 20px;
+  margin-left: 25px;
 }
 /* light theme styles */
 .qt-hero-section.light-theme {
   position: relative;
   background-color: var(--background-light);
   color: var(--text-light);
-  background-image: url("/assets/bg/light-yellow.png"),
-    url("/assets/home/home-hero.png"), url("/assets/bg/light-blue.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-yellow.png?t=2024-04-12T06%3A54%3A34.410Z"),
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/home-hero.png?t=2024-04-12T07%3A06%3A24.879Z"),
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue.png?t=2024-04-12T06%3A56%3A37.723Z");
 }
 
 .qt-home-hero-section.light-theme {
@@ -433,8 +501,9 @@ p.dark-theme {
     rgba(187, 210, 197, 0.5),
     rgba(83, 105, 118, 0.5)
   ); */
-  background-image: url("/assets/bg/light-yellow.png"),
-    /* url("/assets/home/home-hero.png"),  */ url("/assets/bg/light-blue.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-yellow.png?t=2024-04-12T06%3A54%3A34.410Z"),
+    /* url("/assets/home/home-hero.png"),  */
+      url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue.png?t=2024-04-12T06%3A56%3A37.723Z");
 }
 
 .qt-title.light-theme {
@@ -455,14 +524,14 @@ p.dark-theme {
 /* dark theme styles */
 .qt-hero-section.dark-theme {
   background-color: var(--background-dark);
-  background-image: url("/assets/bg/dark.png"),
-    url("/assets/home/dark-home-hero.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/dark.png?t=2024-04-12T07%3A04%3A16.624Z"),
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/dark-home-hero.png?t=2024-04-12T07%3A05%3A56.883Z");
   color: var(--text-dark);
 }
 
 .qt-home-hero-section.dark-theme {
   background-color: var(--background-dark);
-  background-image: url("/assets/bg/dark.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/dark.png?t=2024-04-12T07%3A04%3A16.624Z");
   color: var(--text-dark);
 }
 .qt-home-hero-section video {
@@ -548,31 +617,6 @@ p.dark-theme {
 
 body {
   font-family: "Lexend Deca", "Inter", sans-serif;
-}
-
-.custom-cursor {
-  position: fixed;
-  width: 24px;
-  height: 24px;
-  border: 2px solid #feae33;
-  border-radius: 50%;
-  background-color: transparent;
-  mix-blend-mode: difference;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: transform 0.1s ease-in-out;
-  z-index: 5;
-}
-
-.custom-cursor .dot {
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  background-color: #feae33;
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 body .container {
@@ -1114,7 +1158,7 @@ line-height: 30px;
   display: flex;
   border-radius: 40px;
 
-  background-image: url("/assets/bg/yellow-pattern.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/yellow-pattern.png?t=2024-04-12T07%3A02%3A25.589Z");
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
@@ -1168,7 +1212,7 @@ line-height: 30px;
   padding: 55px 70px;
   width: 100%;
   transition: all 0.4s ease;
-  background-image: url("/assets/bg/yellow-pattern.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/yellow-pattern.png?t=2024-04-12T07%3A02%3A25.589Z");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1318,8 +1362,8 @@ line-height: 30px;
 
 .qt-service-section.light-theme {
   /* background-color: #EAEFFF; */
-  background-image: url("/assets/bg/light-yellow.png"),
-    url("/assets/bg/light-blue.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-yellow.png?t=2024-04-12T06%3A54%3A34.410Z"),
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue.png?t=2024-04-12T06%3A56%3A37.723Z");
   background-position: left top, right bottom;
   background-repeat: no-repeat;
   background-color: var(--background-light);
@@ -2530,8 +2574,8 @@ line-height: 30px;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
   text-wrap: balance;
-  background-image: url("/assets/bg/left-comma.png"),
-    url("/assets/bg/right-comma.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/left-comma.png?t=2024-04-12T06%3A59%3A19.343Z"),
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/right-comma.png?t=2024-04-12T06%3A59%3A34.062Z");
   background-position: left top, right bottom;
   background-repeat: no-repeat;
 }
@@ -3821,7 +3865,7 @@ line-height: 30px;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  min-width: 30rem;
+  min-width: 25rem;
   border: none;
   width: 100%;
 }
@@ -4320,7 +4364,7 @@ line-height: 30px;
   padding: 50px;
   position: relative;
   z-index: 2;
-  background-image: url("/assets/home/hands.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/hands.png?t=2024-04-12T07%3A02%3A05.953Z");
   background-repeat: no-repeat;
   background-position: right top;
   display: flex;
@@ -4355,8 +4399,8 @@ line-height: 30px;
   padding: 50px;
   position: relative;
   z-index: 2;
-  background-image: url("/assets/bg/light-yellow.png"),
-    url("/assets/bg/light-blue.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-yellow.png?t=2024-04-12T06%3A54%3A34.410Z"),
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue.png?t=2024-04-12T06%3A56%3A37.723Z");
   background-repeat: no-repeat;
   background-position: left top, right bottom;
   display: flex;
@@ -5309,8 +5353,8 @@ textarea:focus {
 }
 
 .qt-form-wrap.light-theme {
-  background-image: url("/assets/bg/dark-form.png"),
-    url("/assets/bg/light-blue.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/dark-form.png?t=2024-04-12T06%3A52%3A23.801Z"),
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue.png?t=2024-04-12T06%3A56%3A37.723Z");
   background-size: cover;
   background-position: top left, bottom right;
   background-color: #fff;
@@ -5318,7 +5362,7 @@ textarea:focus {
 
 .qt-form-wrap.dark-theme {
   background-color: var(--background-secondary-dark);
-  background-image: url("/assets/bg/dark-form.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/dark-form.png?t=2024-04-12T06%3A52%3A23.801Z");
   background-size: cover;
   color: var(--text-dark);
   background-position: center;
@@ -5346,7 +5390,7 @@ textarea:focus {
 
 /* .qt-modal-container.light-theme {
   background-image: url("/assets/bg/bg-yellow.png"),
-    url("/assets/bg/light-blue.png");
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue.png?t=2024-04-12T06%3A56%3A37.723Z");
   background-color: #083c74;
 } */
 
@@ -5357,21 +5401,21 @@ textarea:focus {
 
 /* .qt-modal-container-dark-theme {
   background-image: url("/assets/bg/light-blue-left.png"),
-    url("/assets/bg/light-blue.png");
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue.png?t=2024-04-12T06%3A56%3A37.723Z");
   background-color: var(--background-dark);
 } */
 
 .qt-menu-modal-dialog-light-theme {
-  background-image: url("/assets/bg/bg-yellow.png"),
-    url("/assets/bg/light-blue.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/bg-yellow.png?t=2024-04-12T07%3A00%3A44.429Z"),
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue.png?t=2024-04-12T06%3A56%3A37.723Z");
   background-color: #083c74;
   background-repeat: no-repeat;
   background-position: left top, right bottom;
 }
 
 .qt-menu-modal-dialog-dark-theme {
-  background-image: url("/assets/bg/light-blue-left.png"),
-    url("/assets/bg/light-blue.png");
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue-left.png?t=2024-04-12T07%3A01%3A02.985Z"),
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue.png?t=2024-04-12T06%3A56%3A37.723Z");
   background-color: var(--background-dark);
   background-repeat: no-repeat;
   background-position: left top, right bottom;
@@ -5977,19 +6021,17 @@ textarea:focus {
 }
 
 .qt-map-container-address-box {
-  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  z-index: 5;
   padding: 2rem;
   border-radius: 1rem;
-
-  display: none;
 }
 
 .qt-map-container-address-box-pointer {
   position: absolute;
+
   bottom: -19px;
   left: 50%;
   width: 0;
@@ -6023,6 +6065,17 @@ textarea:focus {
   max-width: 402px;
 }
 
+/* .qt-map-container-address-box-5.light-theme {
+  background-color: var(--background-light);
+  border-color: var(--background-light);
+}
+
+.qt-map-container-address-box-5.dark-theme {
+  background-color: var(--background-secondary-dark);
+  border-color: var(--background-secondary-dark);
+  color: #fff;
+} */
+
 .qt-map-container-address-box.light-theme {
   background-color: var(--background-light);
   border-color: var(--background-light);
@@ -6047,18 +6100,18 @@ textarea:focus {
 
 /* uk */
 .address-3 {
-  top: 5%;
-  left: 27.2%;
+  top: 2%;
+  left: 30%;
 }
 /* us */
 .address-2 {
-  top: 15%;
-  left: 2.85%;
+  top: 12%;
+  left: 10%;
 }
 /* india */
 .address-1 {
-  top: 28.5%;
-  right: 22.85%;
+  top: 20%;
+  right: 22%;
 }
 
 .appear-address {
@@ -6300,7 +6353,7 @@ textarea:focus {
   border-radius: 25px;
   transform: scale(1);
   transform-origin: 50% 50%;
-  transition: transform 0.25s ease-out;
+  transition: transform 0.6s ease-out;
 }
 
 .qt-service-faq-block .card1:hover:before {
@@ -6308,7 +6361,7 @@ textarea:focus {
 }
 
 .qt-service-faq-block .card1:hover p {
-  transition: all 0.3s ease-out;
+  transition: all 0.5s ease-out;
   color: #fff;
 }
 
@@ -6316,7 +6369,7 @@ textarea:focus {
   display: none;
 }
 .qt-service-faq-block .card1:hover h2 {
-  transition: all 0.3s ease-out;
+  transition: all 0.5s ease-out;
   color: #fff;
   text-transform: none;
 }
@@ -7242,4 +7295,17 @@ textarea:focus {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.qt-cybersecurity-bottom-cards .card {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qt-cybersecurity-bottom-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
 }
