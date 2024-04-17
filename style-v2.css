@@ -147,16 +147,26 @@ html {
   background-color: #ebf8ed;
 }
 
-.qt-search-field{
+.qt-cybersecurity-pie-block {
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.qt-search-field {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .qt-cybersecurity-img-1 {
   width: 200px;
   height: 200px;
   border-radius: 20px;
-  background: #feae33;
+  /* background: #feae33; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -416,9 +426,9 @@ html {
   position: relative;
   background-color: var(--background-light);
   color: var(--text-light);
-  
+
   background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-yellow.png?t=2024-04-12T06%3A54%3A34.410Z"),
-      url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue.png?t=2024-04-12T06%3A56%3A37.723Z");
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue.png?t=2024-04-12T06%3A56%3A37.723Z");
 }
 
 .qt-title.light-theme {
@@ -547,7 +557,6 @@ header {
   align-items: center;
   display: flex;
 }
-
 
 .qt-hero-section {
   width: 100%;
@@ -781,7 +790,6 @@ header {
   filter: drop-shadow(0px 10px 20px rgba(1, 89, 220, 0.25));
 }
 
-
 .qt-logo-wrapper .qt-logo {
   position: relative;
 }
@@ -873,7 +881,6 @@ header {
   }
 }
 
-
 .qt-home-contact-form .contact-form .left-col {
   padding: 0px 20px 0px 0px;
 }
@@ -927,7 +934,6 @@ header {
   margin-top: 30px;
 }
 
-
 .swiper-slide .qt-client-swiper-card-area .swiper-slide-prev {
   transform: translateY(-50%) !important;
 }
@@ -952,7 +958,6 @@ header {
 }
 
 .qt-client-swiper-card-area .swiper-button-prev {
-
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="90" height="72" viewBox="0 0 90 72" fill="none"%3E%3Cpath d="M85.0104 35.7738H4.86647M4.86647 35.7738L36.0336 4.60668M4.86647 35.7738L36.0336 66.9409" stroke="%230159DC" stroke-width="8.90489" stroke-linecap="round" stroke-linejoin="round"%3E%3C/path%3E%3C/svg%3E');
 
   background-size: 30px; /* Adjust size as needed */
@@ -1185,7 +1190,6 @@ header {
     flex-wrap: wrap; /* Allow cards to wrap onto multiple lines */
   }
 
-
   .qt-career-search-form .form-bottom {
     flex-wrap: wrap;
   }
@@ -1228,7 +1232,6 @@ header {
   position: absolute;
   z-index: 2;
 }
-
 
 @media (min-width: 920px) and (max-width: 1199px) {
   .qt-home-img-circular {
@@ -1531,8 +1534,6 @@ header {
   background-color: #ffd9e9;
 }
 
-
-
 .service-text-wrap {
   display: block;
 }
@@ -1559,7 +1560,6 @@ header {
 .qt-service-description-section.dark-theme {
   background-color: #1f1f1f;
 }
-
 
 .qt-career-main-section {
   padding: 120px 0px;
@@ -1591,7 +1591,6 @@ header {
   border: 1px solid #ffffff, #ffffff00;
   background: #252525;
 }
-
 
 .qt-career-search-form .num-job {
   color: #555;
@@ -1867,7 +1866,6 @@ header {
   /* border: 1px solid #fff; */
 }
 
-
 .qt-job-cards .card-badge .badge {
   display: inline-flex;
   padding: 6px 18px;
@@ -1941,8 +1939,6 @@ header {
   color: #423a3a;
 }
 
-
-
 .qt-career-know-more-content {
   margin-bottom: 40px;
 }
@@ -1974,7 +1970,6 @@ header {
   border-radius: 20px;
 }
 
-
 .qt-home-accordion .card-img-wrap {
   max-width: 444px;
   width: 100%;
@@ -1991,7 +1986,6 @@ header {
   display: block;
 }
 
-
 .qt-home-accordion .card-body {
   justify-content: center;
   text-align: start;
@@ -1999,7 +1993,6 @@ header {
   flex-direction: column;
   align-items: start;
 }
-
 
 .qt-home-accordion .accordion-item {
   background: none;
@@ -2033,7 +2026,6 @@ header {
   color: #fff;
 }
 
-
 .qt-home-accordion .accordion-button:not(.collapsed) {
   display: none;
 }
@@ -2054,7 +2046,6 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-
 
 .qt-client-feedback-block .card-1 {
   border: 1px solid #0159dc;
@@ -2213,7 +2204,6 @@ header {
     minmax(300px, 1fr)
   ); /* Responsive grid with 3 cards per row */
 }
-
 
 .qt-case-study-block .card {
   position: relative;
@@ -2702,7 +2692,6 @@ header {
   position: relative;
 }
 
-
 .qt-culture-custom-tabs .text-wrap .text {
   color: #252b33;
   text-align: center;
@@ -3045,7 +3034,6 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
-
 .home-head-section {
   height: 800px;
   flex-shrink: 0;
@@ -3203,8 +3191,6 @@ header {
 .qt-footer-row .div1 {
   padding: 0rem 2rem;
 }
-
-
 
 .qt-footer-logo svg {
   height: 5rem;
@@ -3386,7 +3372,6 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
 }
-
 
 .qt-blog-cards .qt-title-2 {
   display: -webkit-box;
@@ -3574,7 +3559,6 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-
 .qt-home-technology-block .technology-card {
   border-bottom: 2px solid #feae33;
   border-right: 2px solid #feae33;
@@ -3593,10 +3577,7 @@ header {
   border-right: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-
 @media (min-width: 481px) and (max-width: 768px) {
-
-
   .qt-home-technology-block .technology-cards {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -3608,7 +3589,6 @@ header {
     border-bottom: none; /* Remove bottom border for the last row of cards */
   }
 }
-
 
 .qt-home-contact-section {
   padding: 120px 0px 75px;
@@ -4191,7 +4171,6 @@ body textarea {
   gap: 40px;
 }
 
-
 .qt-services-end-block .card {
   border-radius: 20px;
   /* margin-bottom: 40px; */
@@ -4524,7 +4503,6 @@ textarea:focus {
   z-index: 1000;
 }
 
-
 .qt-modal-container {
   background-position: left top, right bottom;
   background-repeat: no-repeat;
@@ -4537,7 +4515,6 @@ textarea:focus {
   max-width: 900px !important;
   width: 100% !important;
 }
-
 
 .qt-menu-modal-dialog-light-theme {
   background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/bg-yellow.png?t=2024-04-12T07%3A00%3A44.429Z"),
@@ -4647,9 +4624,6 @@ textarea:focus {
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 }
 
-
-
-
 .qt-menu-footer-wrap {
   padding: 0px 20px;
   margin-top: auto;
@@ -4745,21 +4719,17 @@ textarea:focus {
   gap: 50px;
 }
 
-
 .qt-development-card-2 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
 }
 
-
 .qt-main-cyber-block .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
 }
-
-
 
 .qt-main-cyber-block .card {
   background: none;
@@ -5272,7 +5242,6 @@ textarea:focus {
     stroke-width: 6;
   }
 }
-
 
 /* Responsive Tablet View  */
 
@@ -5964,7 +5933,6 @@ textarea:focus {
 .qt-contact-form-social-icons {
   gap: 3rem;
 }
-
 
 .qt-alert-container {
   position: fixed;

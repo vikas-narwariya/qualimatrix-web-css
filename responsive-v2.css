@@ -267,6 +267,18 @@
     margin: 30px;
   }
 
+  .qt-cybersecurity-pie-block {
+    height: 300px;
+  }
+
+  .qt-cybersecurity-grade {
+    font-size: 70px;
+  }
+
+  .qt-contact-btn {
+    min-width: 140px;
+  }
+
   .qt-search-input-form {
     width: 600px;
     position: relative;
@@ -646,6 +658,9 @@
     width: 35rem;
   }
 
+  .qt-cybersecurity-grade {
+    font-size: 70px;
+  }
   .qt-home-technology-block .technology-cards {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -855,6 +870,10 @@
     margin: 30px;
   }
 
+  .qt-contact-btn {
+    min-width: 130px;
+  }
+
   .qt-search-field {
     display: block;
   }
@@ -939,6 +958,10 @@
     margin: 0;
   }
 
+  .qt-contact-btn {
+    min-width: 120px;
+  }
+
   .qt-btn-cybersecurity {
     width: 120px;
     height: 56px;
@@ -953,6 +976,9 @@
 
   .qt-not-found-section {
     padding: 80px 20px;
+  }
+  .qt-cybersecurity-main-block {
+    padding: 50px 0px;
   }
 
   .qt-footer-row .div1 {
