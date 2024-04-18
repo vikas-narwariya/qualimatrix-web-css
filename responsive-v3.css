@@ -64,14 +64,14 @@
     padding: 0;
   }
 
+  .qt-footer-row {
+    gap: 70px;
+  }
+
   /* menu card */
 }
 
 @media (min-width: 1801px) {
-  .qt-footer-row .div1 {
-    padding: 0rem 7rem;
-  }
-
   .cta-btn span {
     height: 80px;
     width: 80px;
@@ -103,6 +103,7 @@
     line-height: clamp(2rem, 2vw, 3rem);
   }
   .qt-footer-row {
+    gap: 100px;
     margin-bottom: 120px;
   }
   .qt-footer-logo svg {
@@ -260,6 +261,10 @@
     height: 77px;
     width: 139px;
   }
+
+  .qt-footer-row {
+    gap: 35px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -328,9 +333,6 @@
     font-size: 1.6rem;
     padding: 10px 23px 6px;
   }
-  .qt-footer-row .div1 {
-    padding: 0rem 4rem;
-  }
 
   .qt-award-block .title {
     border-radius: 40px 200px 200px 40px;
@@ -344,6 +346,10 @@
     right: -15%;
     font-size: 1.6rem;
     padding: 10px 23px 6px;
+  }
+
+  .qt-footer-row {
+    gap: 35px;
   }
 }
 /* DESKTOP 1200PX AND 1440PX*/
@@ -391,12 +397,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .qt-footer-row .div1 {
-    padding: 0rem 2rem;
-  }
-  .qt-footer-row {
-    justify-content: center;
-  }
   .qt-hero-content-wrap .title {
     font-size: 50px;
   }
@@ -672,6 +672,11 @@
   .qt-home-technology-block .technology-card:nth-last-child(-n + 3) {
     border-bottom: none; /* Remove bottom border for the last row of cards */
   }
+
+  .qt-footer-row {
+    justify-content: center;
+    gap: 40px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -921,6 +926,10 @@
     transition: all 0.4s ease;
   }
 
+  .qt-footer-partition {
+    width: 0px;
+  }
+
   .qt-award-scroll.qt-award-block .title {
     position: absolute;
     top: 0;
@@ -981,9 +990,6 @@
     padding: 50px 0px;
   }
 
-  .qt-footer-row .div1 {
-    padding: 0rem 4rem 0rem 0rem;
-  }
   .qt-career-search-block {
     margin-bottom: 20px;
   }
@@ -1101,6 +1107,7 @@
   }
   .qt-footer-row {
     margin-bottom: 50px;
+    gap: 30px;
   }
 
   .qt-footer-row svg {
@@ -1346,6 +1353,7 @@
   }
 
   .qt-footer-row {
+    gap: 20px;
     margin-top: 4rem;
   }
 
@@ -1653,6 +1661,12 @@
     font-size: 1.5rem;
   }
   /* alert */
+}
+
+@media (max-width: 1199px) {
+  .qt-footer-row {
+    justify-content: start;
+  }
 }
 
 @media (min-width: 920px) and (max-width: 1199px) {

@@ -3184,12 +3184,8 @@ header {
 .qt-footer-row {
   margin-bottom: 50px;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   flex-wrap: wrap;
-}
-
-.qt-footer-row .div1 {
-  padding: 0rem 2rem;
 }
 
 .qt-footer-logo svg {
@@ -3223,13 +3219,6 @@ header {
 
 .qt-footer-bottom.dark-theme p {
   color: var(--text-secondary-dark);
-}
-
-.qt-footer-border.light-theme {
-  border-right: 1px solid #555;
-}
-.qt-footer-border.dark-theme {
-  border-right: 1px solid #d5d5d5;
 }
 
 .qt-social-logo {
@@ -6162,4 +6151,52 @@ textarea:focus {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
+}
+
+.qt-cybersecurity-fields {
+  border-radius: 0px 0px 10px 10px;
+
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+  padding-left: 0px !important;
+  margin-bottom: -10px !important;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.qt-footer-partition {
+  width: 1px;
+  background-color: #555;
+}
+
+.qt-cybersecurity-fields.light-theme {
+  background-color: #fff;
+}
+
+.qt-cybersecurity-fields.dark-theme {
+  background-color: #162132;
+}
+.qt-cybersecurity-field-block {
+  width: 20px;
+  height: 110px;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.qt-cybersecurity-field-title {
+  color: #555;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.qt-cybersecurity-field-description {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
