@@ -6230,6 +6230,20 @@ textarea:focus {
   top: -25%;
   max-width: 100%;
   height: auto;
+  animation: popAnimate 3s ease-in-out forwards,
+    popWave 2s ease-in-out infinite alternate;
+  animation-delay: 2.5s; /* Delay after small circle animation finishes */
+}
+
+@keyframes popWave {
+  0%,
+  100% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(10px); /* Adjust for desired wave amplitude */
+  }
 }
 
 @keyframes popAnimate {
@@ -6264,5 +6278,4 @@ textarea:focus {
 
 .qt-pop-image {
   animation-delay: 3s; /* Delay by 3 seconds (total delay: 1.5s + 1.5s) */
-  animation-iteration-count: infinite;
 }

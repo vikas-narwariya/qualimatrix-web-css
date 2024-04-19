@@ -632,6 +632,16 @@
     width: 150px;
   }
 
+  .qt-big-circle {
+    right: 13%;
+    top: 13%;
+  }
+
+  .qt-pop-image {
+    right: -35%;
+    top: -42%;
+  }
+
   .qt-cyber-tool-block .tools-img img {
     height: auto;
     object-fit: contain;
@@ -656,6 +666,16 @@
   .qt-hero-content-wrap .qt-logo {
     height: 35rem;
     width: 35rem;
+  }
+
+  .qt-big-circle {
+    right: 10%;
+    top: 12%;
+  }
+
+  .qt-pop-image {
+    right: -45%;
+    top: -50%;
   }
 
   .qt-cybersecurity-grade {
