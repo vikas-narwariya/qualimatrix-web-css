@@ -6200,3 +6200,69 @@ textarea:focus {
   font-weight: 500;
   line-height: normal;
 }
+
+/* testing */
+
+/*  */
+
+.qt-pop-circle,
+.qt-pop-image {
+  position: absolute;
+  /* Combine animations and adjust timings for smoother transition */
+  animation: popAnimate 3s ease-in-out forwards;
+  /* Reset opacity and scale initially */
+  opacity: 0;
+  transform: scale(0);
+}
+
+.qt-small-circle {
+  right: 22%;
+  top: 22%;
+}
+
+.qt-big-circle {
+  right: 15%;
+  top: 15%;
+}
+
+.qt-pop-image {
+  right: -25%;
+  top: -25%;
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes popAnimate {
+  /* First 0.5s: Opacity and scale animation */
+  0%,
+  50% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  /* Next 0.5s: Scale animation to 1 */
+  50%,
+  75% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  /* Final 2 seconds: Hold opacity at 1 (image stays visible) */
+  75%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Trigger animations sequentially with appropriate delays */
+.qt-small-circle {
+  animation-delay: 0s; /* Immediate animation start */
+}
+
+.qt-big-circle {
+  animation-delay: 1.5s; /* Delay by 1.5 seconds */
+}
+
+.qt-pop-image {
+  animation-delay: 3s; /* Delay by 3 seconds (total delay: 1.5s + 1.5s) */
+  animation-iteration-count: infinite;
+}
