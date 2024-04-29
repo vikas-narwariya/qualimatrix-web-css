@@ -352,6 +352,12 @@
   }
 }
 
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .qt-menu-custom-tabs .tab-content .tab-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media (min-width: 1200px) and (max-width: 1339px) {
   .qt-hero-content-wrap .qt-podcast-cta {
     position: absolute;
@@ -403,7 +409,6 @@
 
   .qt-home-accordion .card {
     flex-wrap: wrap;
-    gap: 0;
   }
 
   .qt-client-feedback-block .cards {
@@ -476,10 +481,6 @@
   }
 
   .qt-main-cyber-block .cards-1 {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .qt-menu-custom-tabs .tab-content .tab-cards {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -658,33 +659,6 @@
   .qt-home-technology-block .technology-card:nth-last-child(-n + 3) {
     border-bottom: none;
     /* Remove bottom border for the last row of cards */
-  }
-}
-
-@media (min-width: 300px) and (max-width: 460px) {
-  .qt-pop-image {
-    top: -29%;
-    max-width: 58%;
-  }
-
-  .qt-description {
-    line-height: clamp(2rem, 2vw, 3rem);
-  }
-
-  .view-btn {
-    margin-left: 15px;
-  }
-
-  .qt-small-circle {
-    right: 22%;
-    top: 27%;
-    width: 5%;
-  }
-
-  .qt-big-circle {
-    right: 17%;
-    top: 19%;
-    max-width: 8%;
   }
 }
 
@@ -1064,10 +1038,37 @@
     margin: 0;
   }
 
+  .qt-home-hero-logo {
+    margin-top: 0%;
+  }
   .qt-contact-btn {
     min-width: 120px;
   }
 
+  .qt-pop-image {
+    top: -29%;
+    max-width: 58%;
+  }
+
+  .qt-description {
+    line-height: clamp(2rem, 2vw, 3rem);
+  }
+
+  .view-btn {
+    margin-left: 15px;
+  }
+
+  .qt-small-circle {
+    right: 22%;
+    top: 27%;
+    width: 5%;
+  }
+
+  .qt-big-circle {
+    right: 17%;
+    top: 19%;
+    max-width: 8%;
+  }
   .qt-btn-cybersecurity {
     width: 120px;
     height: 56px;
@@ -1440,6 +1441,18 @@
 @media screen and (max-width: 480px) {
   body .container {
     width: 90%;
+  }
+
+  .qt-cybersecurity-img-1 {
+    height: 150px;
+  }
+
+  .qt-cybersecurity-field-block {
+    height: 100px;
+  }
+
+  .qt-cybersecurity-img-2 {
+    height: 150px;
   }
 
   .qt-culture-cards-block .card:nth-child(1):hover .card-title {

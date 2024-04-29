@@ -24,6 +24,9 @@ body a {
   color: inherit;
 }
 
+.qt-home-hero-logo {
+  margin-top: 25%;
+}
 html {
   scroll-behavior: smooth;
   /* 1 rem = 10px */
@@ -155,6 +158,14 @@ html {
   display: flex;
   flex-direction: column;
   height: 200px;
+}
+
+.bg-danger {
+  background-color: #ea2429 !important;
+}
+
+.bg-warning {
+  background-color: #feae33 !important;
 }
 
 .qt-search-field {
@@ -6425,7 +6436,7 @@ textarea:focus {
   color: #555;
 
   font-family: Inter;
-  font-size: 24px;
+  font-size: clamp(1.8rem, 2vw, 2.4rem);
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -6433,7 +6444,7 @@ textarea:focus {
 
 .qt-cybersecurity-field-description {
   font-family: Inter;
-  font-size: 18px;
+  font-size: clamp(1.6rem, 2vw, 1.8rem);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
