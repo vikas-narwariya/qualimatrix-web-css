@@ -34,8 +34,8 @@ html {
 }
 
 .qt-sticky-container {
-  width: 80px;
-  height: 200px;
+  width: 60px;
+  height: 137px;
   background-color: #feae33;
   position: fixed;
   z-index: 1000;
@@ -45,7 +45,7 @@ html {
   transition: opacity 0.3s ease-in-out;
 }
 
-.qt-sticky-content {
+.qt-contact-btn {
   color: #fff;
 
   font-family: Inter;
@@ -54,6 +54,7 @@ html {
   font-weight: 700;
   line-height: normal;
   transform: rotate(-90deg);
+  min-width: 99px;
 }
 
 .qt-service-card-with-shadow {
@@ -5600,7 +5601,7 @@ textarea:focus {
 
 .qt-service-faq-block .card-title {
   font-family: Lexend Deca;
-  font-size: clamp(2.2rem, 2vw, 3rem);
+  font-size: clamp(1.8rem, 2vw, 3rem);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -6542,4 +6543,29 @@ textarea:focus {
   /* Delay by 3 seconds (total delay: 1.5s + 1.5s) */
 
   /* animation-iteration-count: infinite; */
+}
+
+.qt-severity-progress-bar {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 30px;
+}
+
+.qt-severity-progress {
+  height: 60px !important;
+  border-radius: 30px !important;
+  padding: 0 !important;
+}
+
+.qt-cybersecurity-pie-block-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px !important;
+  flex-wrap: wrap;
+  gap: 20px;
 }

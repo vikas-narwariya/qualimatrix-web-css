@@ -292,10 +292,6 @@
     font-size: 70px;
   }
 
-  .qt-contact-btn {
-    min-width: 140px;
-  }
-
   .qt-search-input-form {
     width: 600px;
     position: relative;
@@ -944,10 +940,6 @@
     margin: 30px;
   }
 
-  .qt-contact-btn {
-    min-width: 130px;
-  }
-
   .qt-search-field {
     display: block;
   }
@@ -1040,9 +1032,6 @@
 
   .qt-home-hero-logo {
     margin-top: 0%;
-  }
-  .qt-contact-btn {
-    min-width: 120px;
   }
 
   .qt-pop-image {
@@ -1481,16 +1470,22 @@
 
   .qt-sticky-container {
     width: 32px;
-    height: 117px;
+    height: 90px;
   }
 
   .qt-sticky-content h2 {
     text-align: center;
     font-size: 10px;
   }
-
+  .qt-service-faq-block .card-description {
+    font-size: 16px;
+  }
   .qt-audit-rating-block .card {
     gap: 20px;
+  }
+
+  .qt-cybersecurity-pie-block-container {
+    justify-content: center;
   }
 
   .qt-title {
