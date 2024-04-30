@@ -1153,11 +1153,11 @@
   }
 
   .qt-blog-search-section {
-    margin: 30px 0px;
+    padding: 30px 0px;
   }
 
   .qt-blog-search-icon {
-    top: 15px;
+    top: 35%;
     margin-left: 15px;
   }
 
@@ -1489,11 +1489,11 @@
   }
 
   .qt-title {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .qt-title-2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .qt-cybersecurity-bottom-cards .card {
