@@ -165,7 +165,6 @@ html {
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 200px;
 }
 
 .bg-danger {
@@ -6536,17 +6535,17 @@ textarea:focus {
 
 /* Trigger animations sequentially with appropriate delays */
 .qt-small-circle {
-  animation-delay: 3s;
+  animation-delay: 1s;
   /* Immediate animation start */
 }
 
 .qt-big-circle {
-  animation-delay: 3s;
+  animation-delay: 1s;
   /* Delay by 1.5 seconds */
 }
 
 .qt-pop-image {
-  animation-delay: 3s;
+  animation-delay: 1s;
   /* Delay by 3 seconds (total delay: 1.5s + 1.5s) */
 
   /* animation-iteration-count: infinite; */
@@ -6710,4 +6709,29 @@ textarea:focus {
   padding: 10px;
   transform: rotateY(180deg);
   background-color: #6fba76;
+}
+
+.qt-cyber-tool-svg-img {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+}
+
+.qt-cyber-svg-text {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  bottom: 20%;
+  margin: 0;
+}
+
+.qt-cyber-svg-text.light-theme {
+  color: #252b33;
+}
+
+.qt-cyber-svg-text.dark-theme {
+  color: #fff;
 }
