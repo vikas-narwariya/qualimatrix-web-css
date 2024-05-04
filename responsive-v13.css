@@ -1440,6 +1440,15 @@
     height: 150px;
   }
 
+  .qt-pie-chart-card {
+    width: 200px;
+    height: 200px;
+  }
+
+  .qt-cyber-svg-text {
+    font-size: 14px;
+  }
+
   .qt-culture-cards-block .card:nth-child(1):hover .card-title {
     bottom: 18rem;
     /* Adjust as needed */

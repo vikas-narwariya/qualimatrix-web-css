@@ -6430,7 +6430,9 @@ textarea:focus {
 }
 
 .qt-cybersecurity-fields.dark-theme {
-  background-color: #162132;
+  background: rgba(0, 0, 0, 0.25);
+
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .qt-cybersecurity-field-block {
@@ -6734,4 +6736,13 @@ textarea:focus {
 
 .qt-cyber-svg-text.dark-theme {
   color: #fff;
+}
+
+.qt-cyber-ad-description-2 li:hover {
+  color: #feae33;
+}
+
+.qt-social-icon {
+  width: 60px;
+  height: 60px;
 }
