@@ -59,7 +59,7 @@ html {
 
 .qt-service-card-with-shadow {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 0px !important;
+  border-radius: 12px !important;
 }
 
 .qt-service-card-with-shadow:hover {
@@ -2032,6 +2032,7 @@ header {
   gap: 100px;
   padding: 68px 78px;
   border: none;
+  flex-wrap: wrap;
   background-color: transparent;
 }
 
@@ -6183,7 +6184,7 @@ textarea:focus {
   display: flex;
   align-items: center;
   border-radius: 1rem;
-  padding: 2.4rem;
+  padding: 2rem;
   gap: 1rem;
 }
 
@@ -6209,7 +6210,8 @@ textarea:focus {
 
 .qt-alert-container p {
   margin: 0;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 .qt-case-solution-list-wrap {
@@ -6699,7 +6701,7 @@ textarea:focus {
 .qt-pie-chart-card-back {
   color: #fff;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -6745,4 +6747,8 @@ textarea:focus {
 .qt-social-icon {
   width: 60px;
   height: 60px;
+}
+
+.qt-cyber-ad-bottom {
+  display: none;
 }

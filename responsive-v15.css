@@ -284,6 +284,13 @@
     margin: 30px;
   }
 
+  .qt-home-accordion .card {
+    flex-wrap: nowrap;
+  }
+
+  .qt-cyber-ad-bottom {
+    display: block;
+  }
   .qt-cybersecurity-grade {
     font-size: 70px;
   }
@@ -362,6 +369,16 @@
   .qt-footer-row {
     gap: 35px;
   }
+
+  .qt-related-blog-card img {
+    max-height: 180px;
+    max-width: 180px;
+  }
+
+  .qt-related-blog-card .card-body {
+    max-height: 180px;
+    max-width: 180px;
+  }
 }
 
 /* DESKTOP 1200PX AND 1440PX*/
@@ -399,9 +416,9 @@
     object-fit: contain;
   }
 
-  .qt-home-accordion .card {
+  /* .qt-home-accordion .card {
     flex-wrap: wrap;
-  }
+  } */
 
   .qt-client-feedback-block .cards {
     grid-template-columns: repeat(3, 1fr);
@@ -651,6 +668,16 @@
   .qt-home-technology-block .technology-card:nth-last-child(-n + 3) {
     border-bottom: none;
     /* Remove bottom border for the last row of cards */
+  }
+
+  .qt-related-blog-card img {
+    max-height: 150px;
+    max-width: 150px;
+  }
+
+  .qt-related-blog-card .card-body {
+    max-height: 150px;
+    max-width: 150px;
   }
 }
 
@@ -1170,7 +1197,7 @@
   }
 
   .qt-hero-section {
-    padding: 100px 0px 50px;
+    padding: 100px 0px;
     height: auto;
   }
 
@@ -1429,7 +1456,7 @@
   }
 
   .qt-cybersecurity-img-1 {
-    height: 150px;
+    height: 120px;
   }
 
   .qt-cybersecurity-field-block {
@@ -1437,7 +1464,7 @@
   }
 
   .qt-cybersecurity-img-2 {
-    height: 150px;
+    height: 120px;
   }
   .qt-cyber-tool-ad {
     padding: 15px;
