@@ -4591,7 +4591,7 @@ textarea:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4rem;
+  gap: 2.5rem;
   height: 4rem;
 }
 
@@ -6751,4 +6751,16 @@ textarea:focus {
 
 .qt-cyber-ad-bottom {
   display: none;
+}
+
+.qt-header-btn-wrap .podcast-btn {
+  border-radius: 30px;
+  background: #feae33;
+  /* box-shadow: 0px 5px 15px 0px rgba(1, 89, 220, 0.2); */
+  padding: 10px;
+  cursor: pointer;
+}
+
+.qt-footer li:hover{
+  color: #feae33;
 }

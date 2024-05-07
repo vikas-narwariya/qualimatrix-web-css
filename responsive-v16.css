@@ -1458,6 +1458,9 @@
   .qt-cybersecurity-img-1 {
     height: 120px;
   }
+  .qt-header-btn-wrap .podcast-btn {
+    display: none;
+  }
 
   .qt-cybersecurity-field-block {
     height: 100px;
