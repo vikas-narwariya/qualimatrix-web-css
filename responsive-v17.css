@@ -1062,6 +1062,14 @@
     max-width: 58%;
   }
 
+  .qt-cyber-submit-text {
+    display: none; /* Hide text for mobile view */
+  }
+
+  .qt-cyber-right-arrow {
+    display: inline-block;
+  }
+
   .qt-description {
     line-height: clamp(2rem, 2vw, 3rem);
   }
@@ -1082,7 +1090,7 @@
     max-width: 8%;
   }
   .qt-btn-cybersecurity {
-    width: 120px;
+    width: 66px;
     height: 56px;
     font-size: 18px;
   }

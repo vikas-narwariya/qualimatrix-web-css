@@ -2029,7 +2029,7 @@ header {
   justify-content: center;
   display: flex;
   flex-direction: row;
-  gap: 100px;
+  gap: 0px 80px;
   padding: 68px 78px;
   border: none;
   flex-wrap: wrap;
@@ -6391,7 +6391,7 @@ textarea:focus {
 .qt-cybersecurity-tool-card .qt-description {
   text-align: center;
   font-family: Inter;
-  font-size: 30px;
+  font-size: clamp(2rem, 2vw, 3rem);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -6761,6 +6761,10 @@ textarea:focus {
   cursor: pointer;
 }
 
-.qt-footer li:hover{
+.qt-footer li:hover {
   color: #feae33;
+}
+
+.qt-cyber-right-arrow {
+  display: none;
 }
