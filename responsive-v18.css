@@ -291,6 +291,7 @@
   .qt-cyber-ad-bottom {
     display: block;
   }
+
   .qt-cybersecurity-grade {
     font-size: 70px;
   }
@@ -1063,7 +1064,8 @@
   }
 
   .qt-cyber-submit-text {
-    display: none; /* Hide text for mobile view */
+    display: none;
+    /* Hide text for mobile view */
   }
 
   .qt-cyber-right-arrow {
@@ -1089,6 +1091,7 @@
     top: 19%;
     max-width: 8%;
   }
+
   .qt-btn-cybersecurity {
     width: 66px;
     height: 56px;
@@ -1466,6 +1469,7 @@
   .qt-cybersecurity-img-1 {
     height: 120px;
   }
+
   .qt-header-btn-wrap .podcast-btn {
     display: none;
   }
@@ -1477,9 +1481,11 @@
   .qt-cybersecurity-img-2 {
     height: 120px;
   }
+
   .qt-cyber-tool-ad {
     padding: 15px;
   }
+
   .qt-cyber-ad-top {
     display: flex;
     justify-content: center;
@@ -1488,15 +1494,22 @@
     align-items: start;
     flex-wrap: wrap;
   }
+
   .qt-cyber-ad-title {
     font-size: 18px;
     line-height: normal;
   }
+
   .qt-cyber-ad-description {
     line-height: normal;
   }
+
   .qt-cyber-ad-description-2 {
     font-size: 16px;
+  }
+
+  .qt-pie-chart-card-back {
+    padding: 16px;
   }
 
   .qt-pie-chart-card {
@@ -1541,9 +1554,11 @@
     text-align: center;
     font-size: 10px;
   }
+
   .qt-service-faq-block .card-description {
     font-size: 16px;
   }
+
   .qt-audit-rating-block .card {
     gap: 20px;
   }
