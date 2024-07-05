@@ -526,9 +526,7 @@ html {
 /* styles/toggle.css */
 .qt-toggle-container {
   position: fixed;
-  top: -12px;
-  right: -20px;
-  margin: 40px;
+  right: 10px;
   z-index: 1999;
 }
 
@@ -6753,11 +6751,11 @@ textarea:focus {
   display: none;
 }
 
-.qt-header-btn-wrap .podcast-btn {
+.qt-podcast-btn {
   border-radius: 30px;
   background: #feae33;
   /* box-shadow: 0px 5px 15px 0px rgba(1, 89, 220, 0.2); */
-  padding: 10px;
+  padding: 8px;
   cursor: pointer;
 }
 
@@ -6767,4 +6765,117 @@ textarea:focus {
 
 .qt-cyber-right-arrow {
   display: none;
+}
+
+/* New Header Code */
+/* Custom styles for the Navbar */
+
+body .dropdown-toggle {
+  color: #252b33;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.navbar-nav {
+  align-items: center;
+  gap: 20px;
+}
+
+body .nav-dropdown-custom {
+  position: unset;
+  height: 45px;
+  align-items: center;
+  display: flex;
+}
+body .dropdown-menu.show {
+  width: 100%;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.qt-custom-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5rem 1rem;
+}
+
+.qt-custom-small-container {
+  min-width: 320px;
+  margin-top: 10px;
+}
+body .qt-navbar-title {
+  color: #1b1b1b;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 10px;
+  line-height: normal;
+}
+
+body .qt-navbar-title.light-theme {
+  color: #252b33;
+}
+
+body .qt-navbar-title.dark-theme {
+  color: #fff;
+}
+
+body .qt-navbar-item-description {
+  color: #252525;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  border-bottom: 0.2px solid #f5f5f5;
+}
+
+.qt-custom-container {
+  background-color: #eaefff;
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.qt-custom-small-container {
+  background-color: #eaefff;
+
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.qt-custom-container-dark-theme {
+  background-image: url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue-left.png?t=2024-04-12T07%3A01%3A02.985Z"),
+    url("https://kkhxfqnbxgdhsoisuktc.supabase.co/storage/v1/object/public/qualimatrix-asset/assets/light-blue.png?t=2024-04-12T06%3A56%3A37.723Z");
+  background-color: var(--background-dark);
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+}
+
+body .nav-dropdown-custom1 .dropdown-toggle::after {
+  display: none;
+}
+
+body .nav-dropdown-custom .dropdown-toggle::after {
+  display: none;
+}
+
+.qt-down-arrow.light-theme {
+  fill: #121d2d;
+  height: 24px;
+}
+
+.qt-down-arrow.dark-theme {
+  fill: #fff;
 }
