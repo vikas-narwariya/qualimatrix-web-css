@@ -19,8 +19,8 @@
 @media (min-width: 1441px) and (max-width: 1919px) {
   /* contact */
   /* .qt-attachment-text {
-      font-size: 2rem;
-    } */
+        font-size: 2rem;
+      } */
   /* contact */
 
   .qt-award-block .title {
@@ -291,7 +291,6 @@
   .qt-cyber-ad-bottom {
     display: block;
   }
-
   .qt-cybersecurity-grade {
     font-size: 70px;
   }
@@ -418,8 +417,8 @@
   }
 
   /* .qt-home-accordion .card {
-    flex-wrap: wrap;
-  } */
+      flex-wrap: wrap;
+    } */
 
   .qt-client-feedback-block .cards {
     grid-template-columns: repeat(3, 1fr);
@@ -455,24 +454,24 @@
   }
 
   /* .qt-free-cta span {
-      font-size: 2rem;
-    } */
+        font-size: 2rem;
+      } */
 
   /* .qt-podcast-cta span {
-      font-size: 2rem;
-    } */
+        font-size: 2rem;
+      } */
 
   /* .qt-description {
-      font-size: 1.6rem !important;
-      line-height: 1.6rem !important;
-    } */
+        font-size: 1.6rem !important;
+        line-height: 1.6rem !important;
+      } */
 
   /* menu */
 
   /* .modal-100w .modal-header .btn-close {
-      top: 5%;
-      right: 4%;
-    } */
+        top: 5%;
+        right: 4%;
+      } */
 
   .qt-menu-custom-tabs ul {
     padding: 30px 10px;
@@ -630,8 +629,8 @@
 
   /* contact */
   /* .qt-attachment-text {
-      font-size: 1.6rem;
-    } */
+        font-size: 1.6rem;
+      } */
   /* contact */
 }
 
@@ -776,7 +775,6 @@
     height: 100px;
     width: 100px;
     top: 4rem;
-    left: 44%;
   }
 
   .qt-home-contact-form-wrap .bg-img img {
@@ -810,13 +808,13 @@
   }
 
   /* .qt-podcast-cta span {
-      font-size: 2rem;
-    } */
+        font-size: 2rem;
+      } */
 
   /* .qt-description {
-      font-size: 1.3rem !important;
-      line-height: 1.25rem !important;
-    } */
+        font-size: 1.3rem !important;
+        line-height: 1.25rem !important;
+      } */
 
   /* menu */
 
@@ -830,12 +828,12 @@
   }
 
   /* .qt-menu-custom-tabs .nav-item {
-      width: 121px;
-    } */
+        width: 121px;
+      } */
 
   /* .qt-menu-custom-tabs .nav-item .nav-link {
-      font-size: 14px;
-    } */
+        font-size: 14px;
+      } */
 
   .qt-menu-custom-tabs .tab-content {
     padding: 17px 20px;
@@ -862,11 +860,11 @@
   }
 
   /* .qt-menu-custom-tabs .tab-content .tab-card h2 {
-      font-size: 15px;
-    }
-    .qt-menu-custom-tabs .tab-content .tab-card li {
-      font-size: 14px;
-    } */
+        font-size: 15px;
+      }
+      .qt-menu-custom-tabs .tab-content .tab-card li {
+        font-size: 14px;
+      } */
 
   .qt-menu-custom-tabs .img-wrap img {
     height: 160px;
@@ -1045,6 +1043,7 @@
   .qt-award-swiper-card-img {
     height: 60px;
     width: 60px;
+    object-fit: contain;
   }
 }
 
@@ -1064,8 +1063,7 @@
   }
 
   .qt-cyber-submit-text {
-    display: none;
-    /* Hide text for mobile view */
+    display: none; /* Hide text for mobile view */
   }
 
   .qt-cyber-right-arrow {
@@ -1091,7 +1089,6 @@
     top: 19%;
     max-width: 8%;
   }
-
   .qt-btn-cybersecurity {
     width: 66px;
     height: 56px;
@@ -1125,8 +1122,8 @@
 
   /* contact */
   /* .qt-attachment-text {
-      font-size: 1.2rem;
-    } */
+        font-size: 1.2rem;
+      } */
   /* contact */
 
   .qt-culture-tab-section {
@@ -1196,7 +1193,7 @@
   }
 
   .qt-privacy-main-section {
-    padding: 50px 0px;
+    padding: 40px 0px;
   }
 
   .qt-home-contact-section {
@@ -1222,15 +1219,15 @@
   }
 
   .qt-service-description-section {
-    padding: 50px 0px;
+    padding: 40px 0px;
   }
 
   .qt-home-client-section {
-    padding: 50px 0px;
+    padding: 40px 0px;
   }
 
   .qt-technology-section {
-    padding: 50px 0px;
+    padding: 40px 0px;
   }
 
   .home-head-section {
@@ -1246,25 +1243,16 @@
     gap: 30px;
   }
 
-  .qt-footer-row svg {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .qt-email input {
-    min-width: auto;
-  }
-
   .qt-client-swiper-card-area .swiper {
     padding-bottom: 100px;
   }
 
   /* .qt-title-2 {
-      font-size: 1.5rem !important;
-    }
-    .qt-title {
-      font-size: 3rem;
-    } */
+        font-size: 1.5rem !important;
+      }
+      .qt-title {
+        font-size: 3rem;
+      } */
 
   /* logo */
   .qt-hero-content-wrap .qt-logo {
@@ -1298,8 +1286,8 @@
   }
 
   /* .qt-podcast-cta span {
-      font-size: 2rem;
-    } */
+        font-size: 2rem;
+      } */
 
   /* /////////////////////////////////////////////////// */
   /* HOME PAGE */
@@ -1330,8 +1318,8 @@
   }
 
   .qt-contact-bottom svg {
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
   }
 
   .qt-contact-logo {
@@ -1343,8 +1331,7 @@
     position: relative;
     height: 100px;
     width: 100px;
-    top: 4rem;
-    left: 35%;
+    top: 3rem;
   }
 
   .qt-home-contact-form-wrap .bg-img img {
@@ -1378,8 +1365,8 @@
   }
 
   /* .qt-culture-tab-section {
-      display: none;
-    } */
+        display: none;
+      } */
   .qt-culture-end-section {
     padding: 50px 0px;
   }
@@ -1447,8 +1434,8 @@
   }
 
   /* technology */
-  .qt-home-technology-block.light-theme .technology-card img {
-    height: 4.8rem;
+  .qt-home-technology-block .technology-card img {
+    height: 6rem;
   }
 
   .qt-home-technology-block .technology-card {
@@ -1469,7 +1456,6 @@
   .qt-cybersecurity-img-1 {
     height: 120px;
   }
-
   .qt-header-btn-wrap .podcast-btn {
     display: none;
   }
@@ -1481,11 +1467,9 @@
   .qt-cybersecurity-img-2 {
     height: 120px;
   }
-
   .qt-cyber-tool-ad {
     padding: 15px;
   }
-
   .qt-cyber-ad-top {
     display: flex;
     justify-content: center;
@@ -1494,16 +1478,13 @@
     align-items: start;
     flex-wrap: wrap;
   }
-
   .qt-cyber-ad-title {
     font-size: 18px;
     line-height: normal;
   }
-
   .qt-cyber-ad-description {
     line-height: normal;
   }
-
   .qt-cyber-ad-description-2 {
     font-size: 16px;
   }
@@ -1554,11 +1535,9 @@
     text-align: center;
     font-size: 10px;
   }
-
   .qt-service-faq-block .card-description {
     font-size: 16px;
   }
-
   .qt-audit-rating-block .card {
     gap: 20px;
   }
@@ -1579,15 +1558,6 @@
     height: 125px;
   }
 
-  .qt-footer-row {
-    gap: 20px;
-    margin-top: 4rem;
-  }
-
-  .qt-footer-logo svg {
-    width: 20rem;
-  }
-
   .qt-hero-content-wrap .qt-logo {
     margin-top: 5rem;
     height: 18rem;
@@ -1599,10 +1569,10 @@
   }
 
   .qt-home-technology-block .technology-cards {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .qt-home-technology-block .technology-card:nth-child(n) {
+  .qt-home-technology-block .technology-card:nth-child(2n) {
     border-right: none;
     /* Remove right border for every second card in a row */
   }
@@ -1621,10 +1591,10 @@
   }
 
   /* .qt-header svg {
-      width: 200px;
-    } */
+        width: 200px;
+      } */
   .qt-award-section {
-    padding: 50px 0px;
+    padding: 40px 0px;
   }
 
   .qt-blog-main-section .col-lg-7 {
@@ -1644,16 +1614,8 @@
     flex-wrap: wrap;
   }
 
-  .qt-email button {
-    width: 60px;
-  }
-
   .qt-strategy-left-block {
     flex-wrap: wrap;
-  }
-
-  .qt-footer {
-    padding: 50px 0px 100px;
   }
 
   .qt-services-end-block .card {
@@ -1680,7 +1642,7 @@
   }
 
   .qt-client-swiper-card-area .swiper {
-    padding: 50px 0px;
+    padding: 40px 0px 0px;
   }
 
   /* lines service */
@@ -1793,9 +1755,6 @@
   /* alert */
 
   /* email subscribe */
-  .qt-email {
-    gap: 6px;
-  }
 }
 
 @media (min-width: 481px) and (max-width: 919px) {
@@ -2161,4 +2120,297 @@
   }
 
   /* map */
+}
+
+@media (max-width: 480px) {
+  .qt-header-logo svg {
+    height: 3rem;
+    width: 16rem;
+  }
+
+  .qt-hero-1 {
+    flex-wrap: wrap-reverse;
+    gap: 50px;
+  }
+  .qt-podcast-btn-img {
+    height: 24px;
+  }
+
+  .qt-header-btn-wrap .menu-btn {
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  h1 {
+    font-size: 17px;
+  }
+
+  .cta-btn span {
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+  }
+
+  .cta-btn {
+    font-size: 16px;
+    line-height: 24px;
+    gap: 12px;
+    padding: 0;
+  }
+
+  .qt-home-hero-section {
+    padding: 40px 0px;
+    height: auto;
+  }
+
+  .qt-title-2 {
+    font-size: 1.6rem;
+    margin-bottom: 4px;
+  }
+
+  .qt-description {
+    line-height: 20px;
+    font-size: 1.4rem;
+  }
+
+  .qt-service-section {
+    padding: 40px 0px;
+  }
+  .service-left-content-wrap {
+    gap: 12px;
+  }
+
+  .qt-home-img-circular img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+  }
+
+  .service-content-wrap {
+    gap: 12px;
+  }
+  .qt-service-block-title {
+    margin-bottom: 30px;
+  }
+
+  .qt-home-technology-block .technology-card img {
+    height: 8rem;
+    width: 12rem;
+  }
+
+  .qt-home-technology-block .technology-card {
+    padding: 24px;
+    min-width: auto;
+    min-height: auto;
+  }
+
+  .qt-home-technology-block {
+    padding: 0;
+  }
+
+  .qt-technology-section {
+    padding: 40px 0px;
+  }
+
+  .qt-home-contact-form {
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .qt-home-contact-form .contact-form .field-input {
+    border-radius: 6px;
+    padding: 12px;
+    font-family: Inter;
+    font-size: 14px;
+  }
+
+  .qt-home-contact-form .qt-description {
+    margin-bottom: 15px;
+  }
+  .qt-home-contact-form-wrap {
+    padding: 0;
+  }
+
+  .qt-home-contact-form-wrap .contact-form .field-wrap1 {
+    margin-bottom: 15px;
+    gap: 15px;
+  }
+
+  .qt-custom-phone-input .react-tel-input .form-control {
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 12px 20px;
+    margin-left: 0;
+    border-radius: 6px;
+    line-height: normal;
+    height: 43px;
+    width: 100%;
+    outline: none;
+    padding-left: 6.5rem;
+  }
+
+  .qt-file-input-block .custom-file-input label {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .qt-contact-bottom {
+    padding: 10px 6px 10px 10px;
+    border-radius: 8px;
+  }
+
+  .qt-footer li {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .qt-social-svg-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .qt-wave-container {
+    height: 6rem;
+    bottom: 0;
+  }
+
+  .qt-footer {
+    padding: 40px 0px;
+  }
+
+  .qt-footer h6 {
+    font-size: 15px;
+  }
+  .qt-footer p {
+    margin-bottom: 0;
+  }
+
+  .qt-footer-row {
+    gap: 20px 30px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .qt-footer-description {
+    font-size: 14px;
+  }
+
+  .qt-email input {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .qt-email input::placeholder {
+    font-size: 14px;
+  }
+  .qt-email button {
+    width: 50px;
+    height: 50px;
+  }
+  .qt-email {
+    gap: 6px;
+    margin-top: 15px;
+  }
+
+  .qt-footer-bottom p {
+    font-size: 14px;
+  }
+
+  .qt-footer-bottom {
+    padding: 15px 0px;
+  }
+
+  .qt-home-blog-section .blog-card .blog-card-img {
+    height: 160px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .qt-footer-logo svg {
+    width: 16rem;
+  }
+  .qt-client-block .card {
+    min-height: 260px;
+  }
+
+  .qt-client-block .card-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .qt-client-swiper-card-area .swiper-button-next,
+  .qt-client-swiper-card-area .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+  }
+
+  .qt-client-block .card-img img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .qt-home-accordion .accordion-button {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 25px 20px;
+    margin-bottom: -10px;
+    background: none;
+  }
+  .qt-home-accordion .accordion-button::after {
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .qt-client-swiper-card-area .swiper-button-next {
+    background-size: 20px;
+  }
+
+  .qt-client-swiper-card-area .swiper-button-prev {
+    background-size: 20px;
+  }
+
+  .qt-location-icon {
+    height: 10px;
+    width: 10px;
+  }
+
+  .qt-owl-hands {
+    position: absolute;
+    height: 24px;
+    top: 0;
+    display: block;
+  }
+
+  .qt-form-wrap {
+    padding: 20px;
+  }
+  .qt-form .qt-description {
+    max-width: 900px;
+    margin-bottom: 20px;
+  }
+
+  .qt-form .contact-form .field-input {
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 14px;
+  }
+  .qt-form select {
+    width: 100%;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 14px;
+  }
+  .qt-modal-close-btn svg {
+    height: 50px;
+    width: 50px;
+  }
+
+  #qt-modal .modal-content {
+    border-radius: 2rem;
+  }
 }
