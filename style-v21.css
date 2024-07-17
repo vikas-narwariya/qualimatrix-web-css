@@ -5636,7 +5636,7 @@ textarea:focus {
 }
 
 .qt-offcanvas-block li {
-  font-family: Lexend Deca;
+  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -5700,7 +5700,6 @@ textarea:focus {
   background: none;
   border: none;
   transform: none;
-  margin-top: -2rem;
 }
 
 .qt-offcanvas-block .dropdown-menu.show.hover {
@@ -5715,28 +5714,26 @@ textarea:focus {
 }
 
 .qt-offcanvas-block .tab-cards h2 {
-  font-family: Lexend Deca;
+  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  opacity: 1;
 }
 
 .qt-offcanvas-block .tab-cards li {
-  font-family: Lexend Deca;
-  font-size: 16px;
+  font-family: Inter;
+  font-size: 15px;
   font-style: normal;
-  font-weight: 400;
-  opacity: 0.8;
+  font-weight: 500;
 }
 
 .qt-offcanvas-block .dropdown-toggle {
   background: none;
   border: none;
-  font-family: Lexend Deca;
+  font-family: Inter;
   font-size: 16px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
   padding: 0;
   background-color: transparent !important;
@@ -6867,4 +6864,24 @@ body .nav-dropdown-custom .dropdown-toggle::after {
 
 .qt-owl-hands {
   display: none;
+}
+
+body .dropdown-toggle::after {
+  display: none;
+}
+
+body .offcanvas-header .btn-close {
+  background-size: 1.5rem;
+}
+
+.qt-close-btn {
+  font-size: 2rem;
+}
+
+.qt-close-btn.light-theme {
+  color: #1f1f1f;
+}
+
+.qt-close-btn.dark-theme {
+  color: #fff;
 }
