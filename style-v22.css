@@ -267,7 +267,7 @@ html {
 
 .qt-blog-content-wrap p {
   font-family: Inter;
-  font-size: clamp(1.8rem, 2vw, 2rem);
+  font-size: clamp(1.6rem, 2vw, 1.8rem);
   font-style: normal;
   font-weight: 400;
   line-height: clamp(2.5rem, 3vw, 3rem);
@@ -4029,6 +4029,34 @@ body textarea {
   /* Adjust the color based on your dark theme */
 }
 
+.qt-cyber-mobile-form .contact-form .field-input {
+  border-radius: 8px;
+
+  padding: 19px 20px;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+}
+
+.qt-cyber-mobile-form .contact-form .field-input.text-area {
+  height: 150px;
+}
+
+.qt-cyber-mobile-form .contact-form .field-input.light-theme {
+  background-color: var(--background-light);
+  color: var(--text-secondary-light);
+  border: 1px solid #939598;
+}
+
+.qt-cyber-mobile-form .contact-form .field-input.dark-theme {
+  background-color: #162132;
+  color: var(--text-secondary-dark);
+  border: none;
+}
+
 .qt-submit {
   color: #0159dc;
   font-family: Inter;
@@ -6884,4 +6912,136 @@ body .offcanvas-header .btn-close {
 
 .qt-close-btn.dark-theme {
   color: #fff;
+}
+
+/* new css  nov 7 24*/
+
+.qt-cyber-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  border-radius: 20px;
+  border: 2px solid #0159dc;
+  background: #feae33;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*card-new-css*/
+
+.scan-vulnerability {
+  background-color: #f6f8ff;
+}
+.scan-vulnerability-container {
+  width: 90%;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #F6F8FF; */
+}
+.scan-vulnerability-heading-button {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.scan-vulnerability-heading {
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+  color: #333;
+  font-family: "Lexend Deca";
+  font-weight: bold;
+}
+.scan-vulnerability-box {
+  background-color: #f4f7ff;
+  border: 1px solid #d0e3ff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+.scan-vulnerability-title {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-family: Inter;
+}
+.scan-vulnerability-section {
+  margin-bottom: 8px;
+}
+.scan-vulnerability-subheading-wrong {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0159dc;
+  margin-bottom: 5px;
+  font-family: Inter;
+  font-weight: 800;
+}
+.scan-vulnerability-subheading-solution {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ee6c4d;
+  margin-bottom: 5px;
+  font-family: Inter;
+  font-weight: 800;
+}
+.scan-vulnerability-text {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+.scan-vulnerability-bg-blue {
+  background-color: #eaefff;
+}
+.scan-vulnerability-bg-gray {
+  background-color: #f5f5f5;
+}
+.scan-vulnerability-highlight {
+  color: #feae33;
+}
+.scan-vulnerability-progress-bar-container {
+  margin: 50px 0;
+  text-align: center;
+}
+.scan-vulnerability-progress-bar-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-family: "Lexend";
+  font-size: xx-large;
+}
+.scan-vulnerability-progress-bar-background {
+  width: 100%;
+  background-color: #eaefff;
+  border-radius: 20px;
+  position: relative;
+  height: 30px;
+}
+.scan-vulnerability-progress-bar-fill {
+  height: 100%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: medium;
+  /* font-weight: bold; */
+  transition: width 0.3s ease;
+}
+.scan-vulnerability-progress-bar-text {
+  padding: 0 10px;
+}
+.scan-vulnerability-result {
+  padding: 10px 20px;
+  background-color: #a4e4ff;
+  font-family: Inter;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+  border-radius: 11px;
 }
