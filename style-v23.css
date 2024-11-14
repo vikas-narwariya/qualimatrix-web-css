@@ -4434,7 +4434,7 @@ textarea:focus {
 }
 
 .qt-audit-main-section {
-  padding: 120px 0px;
+  padding: 100px 0px;
 }
 
 .qt-audit-main-section.light-theme {
@@ -7045,3 +7045,43 @@ body .offcanvas-header .btn-close {
   line-height: 1.6;
   border-radius: 11px;
 }
+
+/* Smooth modal transition */
+.qt-custom-modal .modal-content {
+  padding: 0;
+}
+.qt-custom-bts-modal .modal-dialog {
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  transform: scale(0.9); /* Initial scaling effect */
+  opacity: 0;
+}
+
+.qt-custom-bts-modal.show .modal-dialog {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Close icon positioning */
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #000; /* Adjust color to fit your design */
+  z-index: 10;
+}
+
+.qt-bts-img {
+  display: block;
+  position: absolute;
+  height: 100px;
+  width: 170px;
+  bottom: 20%;
+  left: 9.5%;
+}
+
+@media (max-width: 992px) {
+  .qt-bts-img {
+    display: none;
+  }
+}
+
