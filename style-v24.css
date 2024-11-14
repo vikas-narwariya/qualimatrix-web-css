@@ -6297,9 +6297,6 @@ textarea:focus {
   /* left: 20px; */
   width: 0;
   height: 0;
-  border-left: none;
-  border-right: none;
-  border-top: none;
 }
 
 .qt-custom-phone-input .react-tel-input .flag-dropdown.open {
@@ -7077,6 +7074,7 @@ body .offcanvas-header .btn-close {
   width: 170px;
   bottom: 20%;
   left: 9.5%;
+  z-index: 99999;
 }
 
 @media (max-width: 992px) {
@@ -7084,4 +7082,3 @@ body .offcanvas-header .btn-close {
     display: none;
   }
 }
-
