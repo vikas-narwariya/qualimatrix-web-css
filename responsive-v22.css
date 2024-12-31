@@ -2417,3 +2417,908 @@
     border-radius: 2rem;
   }
 }
+
+/*cyber-security-page-new-design*/
+@media (max-width: 768px) {
+  .scan-vulnerability-container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .scan-vulnerability-heading {
+    font-size: 1.8em;
+  }
+  .scan-vulnerability-title {
+    font-size: 1.3em;
+  }
+  .scan-vulnerability-subheading {
+    font-size: 1em;
+  }
+  .scan-vulnerability-text {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 2560px) {
+  .scan-vulnerability-container {
+    width: 80%;
+    padding: 20px;
+  }
+  .scan-vulnerability-heading-button {
+    flex-direction: row;
+    align-items: center;
+  }
+  .scan-vulnerability-heading {
+    font-size: 28px;
+  }
+  .scan-vulnerability-box {
+    padding: 24px;
+  }
+  .scan-vulnerability-title {
+    font-size: 22px;
+  }
+  .scan-vulnerability-subheading-wrong,
+  .scan-vulnerability-subheading-solution {
+    font-size: 18px;
+  }
+  .scan-vulnerability-text {
+    font-size: 16px;
+  }
+  .scan-vulnerability-progress-bar-background {
+    height: 32px;
+  }
+  .scan-vulnerability-progress-bar-text {
+    padding: 0 12px;
+  }
+}
+/* Medium screens */
+@media screen and (max-width: 1440px) {
+  .scan-vulnerability-container {
+    width: 85%;
+    padding: 15px;
+  }
+  .scan-vulnerability-heading {
+    font-size: 26px;
+  }
+  .scan-vulnerability-box {
+    padding: 22px;
+  }
+  .scan-vulnerability-title {
+    font-size: 20px;
+  }
+  .scan-vulnerability-subheading-wrong,
+  .scan-vulnerability-subheading-solution {
+    font-size: 16px;
+  }
+  .scan-vulnerability-text {
+    font-size: 14px;
+  }
+  .scan-vulnerability-progress-bar-background {
+    height: 28px;
+  }
+}
+/* Small screens */
+@media screen and (max-width: 768px) {
+  .scan-vulnerability-container {
+    width: 90%;
+    padding: 10px;
+  }
+  .scan-vulnerability-heading {
+    font-size: 22px;
+  }
+  .scan-vulnerability-box {
+    padding: 16px;
+  }
+  .scan-vulnerability-title {
+    font-size: 18px;
+  }
+  .scan-vulnerability-subheading-wrong,
+  .scan-vulnerability-subheading-solution {
+    font-size: 14px;
+  }
+  .scan-vulnerability-text {
+    font-size: 12px;
+  }
+  .scan-vulnerability-progress-bar-background {
+    height: 24px;
+  }
+}
+/* Extra small screens */
+@media screen and (max-width: 480px) {
+  .scan-vulnerability-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+  .scan-vulnerability-heading-button {
+    flex-direction: column;
+    align-items: center;
+  }
+  .scan-vulnerability-box {
+    padding: 12px;
+  }
+  .scan-vulnerability-title {
+    font-size: 16px;
+  }
+  .scan-vulnerability-subheading-wrong,
+  .scan-vulnerability-subheading-solution {
+    font-size: 12px;
+  }
+  .scan-vulnerability-text {
+    font-size: 10px;
+  }
+  .scan-vulnerability-progress-bar-background {
+    height: 20px;
+  }
+}
+
+/*cyber-security-page-new-design*/
+@media (max-width: 768px) {
+  .scan-vulnerability-container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .scan-vulnerability-heading {
+    font-size: 1.8em;
+  }
+  .scan-vulnerability-title {
+    font-size: 1.3em;
+  }
+  .scan-vulnerability-subheading {
+    font-size: 1em;
+  }
+  .scan-vulnerability-text {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 2560px) {
+  .scan-vulnerability-container {
+    width: 80%;
+    padding: 20px;
+  }
+  .scan-vulnerability-heading-button {
+    flex-direction: row;
+    align-items: center;
+  }
+  .scan-vulnerability-heading {
+    font-size: 28px;
+  }
+  .scan-vulnerability-box {
+    padding: 24px;
+  }
+  .scan-vulnerability-title {
+    font-size: 22px;
+  }
+  .scan-vulnerability-subheading-wrong,
+  .scan-vulnerability-subheading-solution {
+    font-size: 18px;
+  }
+  .scan-vulnerability-text {
+    font-size: 16px;
+  }
+  .scan-vulnerability-progress-bar-background {
+    height: 32px;
+  }
+  .scan-vulnerability-progress-bar-text {
+    padding: 0 12px;
+  }
+}
+/* Medium screens */
+@media screen and (max-width: 1440px) {
+  .scan-vulnerability-container {
+    width: 85%;
+    padding: 15px;
+  }
+  .scan-vulnerability-heading {
+    font-size: 26px;
+  }
+  .scan-vulnerability-box {
+    padding: 22px;
+  }
+  .scan-vulnerability-title {
+    font-size: 20px;
+  }
+  .scan-vulnerability-subheading-wrong,
+  .scan-vulnerability-subheading-solution {
+    font-size: 16px;
+  }
+  .scan-vulnerability-text {
+    font-size: 14px;
+  }
+  .scan-vulnerability-progress-bar-background {
+    height: 28px;
+  }
+}
+/* Small screens */
+@media screen and (max-width: 768px) {
+  .scan-vulnerability-container {
+    width: 90%;
+    padding: 10px;
+  }
+  .scan-vulnerability-heading {
+    font-size: 22px;
+  }
+  .scan-vulnerability-box {
+    padding: 16px;
+  }
+  .scan-vulnerability-title {
+    font-size: 18px;
+  }
+  .scan-vulnerability-subheading-wrong,
+  .scan-vulnerability-subheading-solution {
+    font-size: 14px;
+  }
+  .scan-vulnerability-text {
+    font-size: 12px;
+  }
+  .scan-vulnerability-progress-bar-background {
+    height: 24px;
+  }
+}
+/* Extra small screens */
+@media screen and (max-width: 480px) {
+  .scan-vulnerability-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+  .scan-vulnerability-heading-button {
+    flex-direction: column;
+    align-items: center;
+  }
+  .scan-vulnerability-box {
+    padding: 12px;
+  }
+  .scan-vulnerability-title {
+    font-size: 16px;
+  }
+  .scan-vulnerability-subheading-wrong,
+  .scan-vulnerability-subheading-solution {
+    font-size: 12px;
+  }
+  .scan-vulnerability-text {
+    font-size: 10px;
+  }
+  .scan-vulnerability-progress-bar-background {
+    height: 20px;
+  }
+}
+
+/* For very small screens (≥ 0px) */
+@media (min-width: 0px) and (max-width: 480px) {
+  .chat-window {
+    width: 88vw;
+    height: 75vh;
+    min-height: 350px;
+    font-size: 12px;
+    bottom: 60px;
+    right: 5px;
+  }
+  .chatbot-header {
+    height: 20%;
+    padding: 6%;
+  }
+  .chatbot-header-heading {
+    font-size: 16px; /* Adjust heading size for small screens */
+  }
+  .chatbot-header-peragraph {
+    font-size: 10px; /* Adjust paragraph size for small screens */
+  }
+  .cb-footer {
+    flex-direction: row; /* Stack items vertically */
+    /* padding: 10px;
+    gap: 10px; */
+    height: auto;
+  }
+
+  .cb-textarea {
+    width: 100%; /* Full width */
+    font-size: 14px;
+    height: 50px;
+  }
+
+  .option-close-btn,
+  .custom-icon {
+    font-size: 20px; /* Smaller icons for mobile */
+    padding: 0;
+  }
+  .option-close-btn {
+    padding-bottom: 8px;
+  }
+  /* .chatbot-tooltip{
+    right: 25%;
+  } */
+}
+
+/* For medium screens (≥ 481px and ≤ 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .chat-window {
+    width: 50vw;
+    height: 75vh;
+    min-height: 400px;
+    font-size: 14px;
+    bottom: 80px;
+    right: 10px;
+  }
+  .chatbot-header {
+    height: 18%;
+    padding: 5%;
+  }
+  .chatbot-header-heading {
+    font-size: 17px; /* Adjust heading size for medium screens */
+  }
+
+  .chatbot-header-peragraph {
+    font-size: 11px; /* Adjust paragraph size for medium screens */
+  }
+  .cb-footer {
+    flex-direction: row; /* Align items in a row */
+    justify-content: space-between; /* Space between items */
+    align-items: center;
+    /* height: 60px; */
+  }
+
+  .textarea-container {
+    width: 65%; /* More space for text area */
+  }
+
+  .cb-textarea {
+    font-size: 16px;
+    height: 50px;
+  }
+
+  .option-close-btn,
+  .custom-icon {
+    font-size: 22px; /* Medium icons for tablets */
+  }
+}
+
+/* For larger screens (≥ 769px and ≤ 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .chat-window {
+    width: 32vw;
+    height: 75vh;
+    min-height: 500px;
+    font-size: 15px;
+    bottom: 100px;
+    right: 20px;
+  }
+  .chatbot-header {
+    height: 16%;
+    padding: 4%;
+  }
+  .chatbot-header-heading {
+    font-size: 18px; /* Default font size for laptops */
+  }
+
+  .chatbot-header-peragraph {
+    font-size: 12px; /* Default paragraph size */
+  }
+  .cb-footer {
+    flex-direction: row; /* Maintain horizontal layout */
+    justify-content: space-between;
+    /* height: 65px; */
+  }
+
+  .textarea-container {
+    width: 70%; /* Allocate more space to text area */
+  }
+
+  .cb-textarea {
+    font-size: 18px; /* Slightly larger font */
+    /* height: 55px; */
+  }
+
+  .option-close-btn,
+  .custom-icon {
+    font-size: 24px; /* Larger icons for laptops */
+  }
+}
+
+/* For larger desktops (≥ 1025px and ≤ 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .chat-window {
+    width: 25vw;
+    height: 75vh;
+    min-height: 550px;
+    font-size: 16px;
+    bottom: 110px;
+    right: 30px;
+  }
+  .chatbot-header {
+    height: 16%;
+    padding: 4%;
+  }
+  .chatbot-header-heading {
+    font-size: 18px;
+  }
+
+  .chatbot-header-peragraph {
+    font-size: 12px;
+  }
+  .cb-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 15px; */
+    /* height: 70px; */
+  }
+
+  .textarea-container {
+    width: 75%; /* Even more space for text area */
+  }
+
+  .cb-textarea {
+    font-size: 20px;
+    height: 60px;
+  }
+
+  .option-close-btn,
+  .custom-icon {
+    font-size: 26px; /* Larger icons for desktop */
+  }
+}
+
+/* For ultra-large screens (≥ 1441px and ≤ 2560px) */
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .chat-window {
+    width: 28vw;
+    height: 60vh;
+    min-height: 600px;
+    font-size: 18px;
+    bottom: 120px;
+    right: 40px;
+  }
+  .chatbot-header {
+    height: 16%;
+    padding: 4%;
+  }
+  .chatbot-header-heading {
+    font-size: 18px; /* Maintain default font size for large screens */
+  }
+
+  .chatbot-header-peragraph {
+    font-size: 12px; /* Maintain default paragraph size */
+  }
+  .cb-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 20px; */
+    /* height: 60px; */
+  }
+
+  .textarea-container {
+    width: 80%; /* Maximum width for text area */
+  }
+
+  .cb-textarea {
+    font-size: 20px;
+    /* height: 65px; */
+  }
+
+  .option-close-btn,
+  .custom-icon {
+    font-size: 28px; /* Very large icons */
+  }
+
+  .cb-options {
+    font-size: 18px;
+  }
+}
+
+/* For screens larger than 2560px (≥ 2561px) */
+@media (min-width: 2560px) {
+  .chat-window {
+    width: 40vw;
+    height: 70vh;
+    min-height: 600px;
+    font-size: 18px;
+    bottom: 120px;
+    right: 40px;
+  }
+  .chatbot-header {
+    height: 16%;
+    padding: 4%;
+  }
+  .chatbot-header-heading {
+    font-size: 24px;
+  }
+
+  .chatbot-header-peragraph {
+    font-size: 18px;
+  }
+  .cb-header-close-btn {
+    height: 40px;
+    width: 40px;
+  }
+  .cb-options {
+    font-size: 18px;
+  }
+  .cb-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 25px; */
+    height: 80px;
+  }
+
+  .textarea-container {
+    width: 85%; /* Very wide text area */
+  }
+
+  .cb-textarea {
+    font-size: 24px;
+    /* height: 70px; */
+  }
+
+  .option-close-btn,
+  .custom-icon {
+    font-size: 30px; /* Extremely large icons */
+  }
+
+  .cb-options {
+    font-size: 20px;
+  }
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  .chatbot-tooltip {
+    bottom: 11%;
+    right: 23.8%;
+  }
+
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+      right: 0px;
+      bottom: 20px;
+      z-index: 0;
+    }
+    15% {
+      right: 5.8%;
+      bottom: 10%;
+      transform: scale(1);
+    }
+    98% {
+      right: 5.8%;
+      bottom: 10%;
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      right: 5.8%;
+      bottom: 20px;
+      z-index: 0;
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .chatbot-tooltip {
+    bottom: 11%;
+    right: 23.8%;
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+      right: 0px;
+      bottom: 20px;
+      z-index: 2;
+    }
+    15% {
+      right: 23.8%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    98% {
+      right: 23.8%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      right: 23.8%;
+      bottom: 11px;
+      z-index: 3;
+    }
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .chatbot-tooltip {
+    bottom: 11%;
+    right: 21.8%;
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+      right: 0px;
+      bottom: 20px;
+      z-index: 2;
+    }
+    15% {
+      right: 21.8%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    98% {
+      right: 21.8%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      right: 21.8px;
+      bottom: 11%;
+      z-index: 3;
+    }
+  }
+}
+
+@media (min-width: 425px) and (max-width: 480px) {
+  .chatbot-tooltip {
+    bottom: 11%;
+    right: 19.8%;
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+      right: 0px;
+      bottom: 20px;
+      z-index: 2;
+    }
+    15% {
+      right: 19.8%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    98% {
+      right: 19.8%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      right: 19.8px;
+      bottom: 11%;
+      z-index: 3;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 620px) {
+  .chatbot-tooltip {
+    bottom: 11%;
+    right: 16.8%;
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+      right: 0px;
+      bottom: 20px;
+      z-index: 2;
+    }
+    15% {
+      right: 16.8%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    98% {
+      right: 16.8%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      right: 16.8px;
+      bottom: 11%;
+      z-index: 3;
+    }
+  }
+}
+
+@media (min-width: 621px) and (max-width: 768px) {
+  .chatbot-tooltip {
+    bottom: 12%;
+    right: 10%;
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+      right: 0px;
+      bottom: 20px;
+      z-index: 2;
+    }
+    15% {
+      right: 11%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    98% {
+      right: 11%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      right: 11px;
+      bottom: 11%;
+      z-index: 3;
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .chatbot-tooltip {
+    bottom: 11%;
+    right: 9%;
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+      right: 0px;
+      bottom: 20px;
+      z-index: 2;
+    }
+    15% {
+      right: 8%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    98% {
+      right: 8%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      right: 8px;
+      bottom: 11%;
+      z-index: 3;
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1240px) {
+  .chatbot-tooltip {
+    bottom: 9%;
+    right: 8%;
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+      right: 0px;
+      bottom: 20px;
+      z-index: 2;
+    }
+    15% {
+      right: 8%;
+      bottom: 9%;
+      transform: scale(1);
+    }
+    98% {
+      right: 8%;
+      bottom: 9%;
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      right: 8px;
+      bottom: 9%;
+      z-index: 3;
+    }
+  }
+}
+@media (min-width: 1241px) and (max-width: 1440px) {
+  .chatbot-tooltip {
+    bottom: 8.5%;
+    right: 6%;
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+      right: 0px;
+      bottom: 20px;
+      z-index: 2;
+    }
+    15% {
+      right: 6%;
+      bottom: 8.5%;
+      transform: scale(1);
+    }
+    98% {
+      right: 6%;
+      bottom: 8.5%;
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      right: 6px;
+      bottom: 8.5%;
+      z-index: 3;
+    }
+  }
+}
+@media (min-width: 1441px) and (max-width: 1820px) {
+  .chatbot-tooltip {
+    bottom: 11%;
+    right: 6%;
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+      right: 0px;
+      bottom: 20px;
+      z-index: 2;
+    }
+    15% {
+      right: 6%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    98% {
+      right: 6%;
+      bottom: 11%;
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      right: 6%;
+      bottom: 11%;
+      z-index: 3;
+    }
+  }
+}
+@media (min-width: 1820px) and (max-width: 2560px) {
+  .chatbot-tooltip {
+    bottom: 5%;
+    right: 4%;
+  }
+  .chatbot-btn {
+    width: 120px;
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+      right: 0px;
+      bottom: 20px;
+      z-index: 2;
+    }
+    15% {
+      right: 3.4%;
+      bottom: 5%;
+      transform: scale(1);
+    }
+    98% {
+      right: 3.4%;
+      bottom: 5%;
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      right: 3.4%;
+      bottom: 5%;
+      z-index: 3;
+    }
+  }
+  .chatbot-tooltip p {
+    font-size: 19px;
+    margin: auto;
+    letter-spacing: 0px;
+    animation: bounce 2s ease-in-out infinite;
+    padding: 4px;
+    padding-left: 8px;
+  }
+  .chatbot-btn {
+    height: 74px;
+  }
+}
+@media (min-width: 2561px) {
+  .chatbot-tooltip {
+    bottom: 8%;
+    right: 3%;
+  }
+  .chatbot-btn {
+    height: 100px;
+  }
+  /* .chatbot-tooltip p {
+    font-size: 9px;
+    margin: auto;
+    letter-spacing: 0px;
+    animation: bounce 2s ease-in-out infinite;
+    padding: 2px;
+    padding-left: 8px;
+  } */
+}

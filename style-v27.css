@@ -7089,9 +7089,7 @@ body .offcanvas-header .btn-close {
 
 /* Chat bot */
 
-.chatbot-display {
-  display: block;
-}
+
 
 #qualimatrix-chatbot-chat-area::-webkit-scrollbar {
   width: 10px; /* Width of the scrollbar */
@@ -7109,9 +7107,95 @@ body .offcanvas-header .btn-close {
 }
 
 .chatbot-header {
-  height: 16% !important;
+  height: 16%;
+  padding: 4%;
+  background-color: #0159DC;
+  color: white;
+  display: flex;
+  justify-content: space-around; /* Aligns the content inside the header evenly */
+  align-items: center; /* Vertically centers content */
+  border-radius: 10px 10px 0 0; /* Rounded top corners */
 }
-.no-border-focus:focus {
+/* Default styles for the chatbot heading */
+.chatbot-header-heading {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+/* Default styles for the chatbot paragraph */
+.chatbot-header-peragraph {
+  font-size: 12px;
+  margin-bottom: 0; 
+  color: #ffffff;
+}
+.cb-header-close-btn{
+  height: 20px;
+  width: 20px;
+}
+/* .cb-options{
+  font-size: 12px;
+  background-color: #f8f9fa;
+  border-color: #ddd;
+  padding: 10px 16px;
+  letter-spacing: 0.5px;
+} */
+
+.cb-textarea {
+  display: block;                 
+  width: 100%;                     
+  padding-top: 10px;                 
+  font-size: 13px;                
+  background: transparent;       
+  border: none;                   
+  max-height: 150px;              
+  height: 50px;                   
+  resize: none;                                        
+  border-radius: 0.2rem;          
+  outline: none;   
+  font-size: 18px;
+  /* border-top: 2px solid #dad9d9; */
+}
+.send-button {
+  flex-shrink: 0; /* Prevents the button from shrinking */
+}
+.send-btn {
+  background-color: #fff; 
+  border: none;
+  padding: 8px 4px 2px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cb-footer {
+  /* height: 65px; */
+  display: flex; /* Using flexbox to align items in a row */
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Distribute space between items */
+  position: relative; 
+  width: 100%;
+  padding: 0 10px;
+  gap: 10px; /* Small gap between the elements */
+  margin: 5px 0px;
+  border-top: 2px solid #dad9d9;
+}
+.option-close-btn{
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.textarea-container {
+  flex-grow: 1;
+  width: 90%;
+}
+/* Styling for textarea placeholder */
+.cb-textarea::placeholder {
+  color: #aaa;  /* Placeholder text color */
+  opacity: 1;  /* Ensure opacity is 1 */
+}
+.cb-footer .no-border-focus:focus {
   outline: none;
   box-shadow: none;
   border: none;
@@ -7154,12 +7238,29 @@ div#wave .dot:nth-child(3) {
   }
 }
 .option-icon {
-  margin-top: 7px;
+  /* margin-top: 7px; */
   font-weight: bolder;
   color: black;
+  flex-shrink: 0%;
 }
 .chatbot-btn {
   transition: transform 0.5s ease-in-out;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  font-size: 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
 }
 
 .chatbot-btn:hover {
@@ -7177,6 +7278,7 @@ div#wave .dot:nth-child(3) {
     transform: scale(1); /* Return to original position */
   }
 }
+
 .chatbot-tooltip {
   width: fit-content;
   height: auto;
@@ -7194,19 +7296,11 @@ div#wave .dot:nth-child(3) {
   position: fixed;
   z-index: 99999;
   animation: pop 10s ease-in-out 5;
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px; 
+  border-bottom-left-radius: 20px; 
 }
 
-.chatbot-tooltip::before {
-  content: "";
-  position: absolute;
-  bottom: -8px;
-  left: 80%;
-  transform: translateX(-50%);
-  border-width: 8px 7px 0;
-  border-style: solid;
-  border-color: transparent transparent #007bff transparent;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
-}
 
 .chatbot-tooltip p {
   height: 100%;
@@ -7214,30 +7308,13 @@ div#wave .dot:nth-child(3) {
   justify-content: center;
   align-items: center;
   color: #007bff;
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: bolder;
+  font-size: 9px;
   margin: auto;
   letter-spacing: 0.7px;
   animation: bounce 2s ease-in-out infinite;
-  padding: 4px;
   padding-left: 8px;
-}
-
-@keyframes goPopup {
-  0% {
-    transform: translateY(0) scaleY(0);
-    opacity: 0;
-  }
-  50% {
-    transform: translateY(-50%) scaleY(1.2);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-100%) scaleY(1);
-    border-radius: 8px;
-    opacity: 1;
-    height: 40px;
-  }
+  z-index: 99999;
 }
 
 @keyframes bounce {
@@ -7272,6 +7349,7 @@ div#wave .dot:nth-child(3) {
     bottom: 10%;
     transform: scale(1);
   }
+
   100% {
     transform: scale(0);
     right: 0px;
@@ -7279,6 +7357,25 @@ div#wave .dot:nth-child(3) {
     z-index: 0;
   }
 }
+
+
+@keyframes goPopup {
+  0% {
+    transform: translateY(0) scaleY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-50%) scaleY(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%) scaleY(5);
+    border-radius: 8px;
+    opacity: 1;
+    height: 40px;
+  }
+}
+
 .chatbot-usermessage {
   position: relative; /* Ensure the triangle is positioned relative to the message bubble */
 }
@@ -7323,4 +7420,104 @@ div#wave .dot:nth-child(3) {
 }
 .qt-blog-content-wrap.dark-theme h6 {
   color: var(--text-secondary-dark);
+}
+
+.chat-window {
+  position: fixed;
+  bottom: 110px;
+  right: 20px;
+  width: 37vw;
+  max-width: 600px;
+  height: 75vh;
+  min-height: 550px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  z-index: 999999;
+  font-size: 16px;
+
+  transition: all 0.3s ease; 
+}
+/* Overlay */
+.confirmation-overlay {
+  position: absolute; /* Restrict overlay to the parent container */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dimmed background */
+  z-index: 1500; /* Above chatbot content but below modal */
+  border-radius: inherit; /* Match the chatbot's rounded corners */
+}
+
+/* Modal */
+.confirmation-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2000; /* Above the overlay and chatbot */
+  background-color: #ffffff; /* Modal background */
+  padding: 20px 30px; /* Spacing inside the modal */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  text-align: center;
+  max-width: 400px; /* Optional: limit modal width */
+  width: 90%; /* Adjust for smaller screens */
+}
+
+/* Modal Text */
+.confirmation-modal p {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+/* Modal Actions Container */
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between buttons */
+}
+
+/* Buttons */
+.cb-confirm-btn {
+  display: inline-block;
+  padding: 10px 20px; /* Space inside buttons */
+  font-size: 16px; /* Make the text readable */
+  font-weight: bold; /* Highlight button text */
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  color: #ffffff; /* Default button text color */
+  background-color: #0159dc; /* Default button background */
+  border: none; /* Remove default borders */
+  border-radius: 4px; /* Rounded corners for buttons */
+  cursor: pointer; /* Pointer cursor for buttons */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth hover effect */
+}
+
+/* Hover Effects */
+.cb-confirm-btn:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Primary Button (Yes) */
+.cb-confirm-btn.primary {
+  background-color: #0159dc; /* Bright blue */
+}
+
+.cb-confirm-btn.primary:hover {
+  background-color: #0148b0; /* Darker blue on hover */
+}
+
+/* Secondary Button (No) */
+.cb-confirm-btn.secondary {
+  background-color: #f0f0f0; /* Light gray */
+  color: #333333; /* Dark text */
+}
+
+.cb-confirm-btn.secondary:hover {
+  background-color: #e0e0e0; /* Slightly darker gray */
 }
