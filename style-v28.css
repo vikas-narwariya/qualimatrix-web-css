@@ -33,16 +33,40 @@ html {
   font-size: 62.5%;
 }
 
+.qt-lms-sticky-container {
+  width: 60px;
+  height: 100px;
+  background-color: #feae33;
+  position: fixed;
+  z-index: 1000;
+  top: 45%;
+  right: 0;
+  border-radius: 10px 0px 0px 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
 .qt-sticky-container {
   width: 60px;
   height: 137px;
   background-color: #feae33;
   position: fixed;
   z-index: 1000;
-  top: 50%;
+  top: 60%;
   right: 0;
   border-radius: 10px 0px 0px 10px;
   transition: opacity 0.3s ease-in-out;
+}
+
+.qt-lms-contact-btn {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transform: rotate(-90deg);
+  min-width: 45px;
 }
 
 .qt-contact-btn {
@@ -7089,8 +7113,6 @@ body .offcanvas-header .btn-close {
 
 /* Chat bot */
 
-
-
 #qualimatrix-chatbot-chat-area::-webkit-scrollbar {
   width: 10px; /* Width of the scrollbar */
 }
@@ -7109,7 +7131,7 @@ body .offcanvas-header .btn-close {
 .chatbot-header {
   height: 16%;
   padding: 4%;
-  background-color: #0159DC;
+  background-color: #0159dc;
   color: white;
   display: flex;
   justify-content: space-around; /* Aligns the content inside the header evenly */
@@ -7125,10 +7147,10 @@ body .offcanvas-header .btn-close {
 /* Default styles for the chatbot paragraph */
 .chatbot-header-peragraph {
   font-size: 12px;
-  margin-bottom: 0; 
+  margin-bottom: 0;
   color: #ffffff;
 }
-.cb-header-close-btn{
+.cb-header-close-btn {
   height: 20px;
   width: 20px;
 }
@@ -7141,17 +7163,17 @@ body .offcanvas-header .btn-close {
 } */
 
 .cb-textarea {
-  display: block;                 
-  width: 100%;                     
-  padding-top: 10px;                 
-  font-size: 13px;                
-  background: transparent;       
-  border: none;                   
-  max-height: 150px;              
-  height: 50px;                   
-  resize: none;                                        
-  border-radius: 0.2rem;          
-  outline: none;   
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  font-size: 13px;
+  background: transparent;
+  border: none;
+  max-height: 150px;
+  height: 50px;
+  resize: none;
+  border-radius: 0.2rem;
+  outline: none;
   font-size: 18px;
   /* border-top: 2px solid #dad9d9; */
 }
@@ -7159,7 +7181,7 @@ body .offcanvas-header .btn-close {
   flex-shrink: 0; /* Prevents the button from shrinking */
 }
 .send-btn {
-  background-color: #fff; 
+  background-color: #fff;
   border: none;
   padding: 8px 4px 2px 14px;
   border-radius: 6px;
@@ -7173,14 +7195,14 @@ body .offcanvas-header .btn-close {
   display: flex; /* Using flexbox to align items in a row */
   align-items: center; /* Vertically center the items */
   justify-content: space-between; /* Distribute space between items */
-  position: relative; 
+  position: relative;
   width: 100%;
   padding: 0 10px;
   gap: 10px; /* Small gap between the elements */
   margin: 5px 0px;
   border-top: 2px solid #dad9d9;
 }
-.option-close-btn{
+.option-close-btn {
   background-color: transparent;
   border: none;
   font-size: 24px;
@@ -7192,8 +7214,8 @@ body .offcanvas-header .btn-close {
 }
 /* Styling for textarea placeholder */
 .cb-textarea::placeholder {
-  color: #aaa;  /* Placeholder text color */
-  opacity: 1;  /* Ensure opacity is 1 */
+  color: #aaa; /* Placeholder text color */
+  opacity: 1; /* Ensure opacity is 1 */
 }
 .cb-footer .no-border-focus:focus {
   outline: none;
@@ -7296,11 +7318,10 @@ div#wave .dot:nth-child(3) {
   position: fixed;
   z-index: 99999;
   animation: pop 10s ease-in-out 5;
-  border-top-left-radius: 20px; 
-  border-top-right-radius: 20px; 
-  border-bottom-left-radius: 20px; 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
-
 
 .chatbot-tooltip p {
   height: 100%;
@@ -7357,7 +7378,6 @@ div#wave .dot:nth-child(3) {
     z-index: 0;
   }
 }
-
 
 @keyframes goPopup {
   0% {
@@ -7438,7 +7458,7 @@ div#wave .dot:nth-child(3) {
   z-index: 999999;
   font-size: 16px;
 
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
 }
 /* Overlay */
 .confirmation-overlay {
@@ -7520,4 +7540,17 @@ div#wave .dot:nth-child(3) {
 
 .cb-confirm-btn.secondary:hover {
   background-color: #e0e0e0; /* Slightly darker gray */
+}
+
+.qt-podcast-img {
+  height: auto;
+  max-width: 100%;
+}
+
+.qt-podcast-container {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  position: relative;
+  padding: 10px;
 }

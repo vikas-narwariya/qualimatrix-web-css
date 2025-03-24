@@ -1534,6 +1534,11 @@
     height: 90px;
   }
 
+  .qt-lms-sticky-container {
+    width: 32px;
+    height: 90px;
+  }
+
   .qt-sticky-content h2 {
     text-align: center;
     font-size: 10px;
