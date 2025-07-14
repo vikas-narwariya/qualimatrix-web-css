@@ -2543,6 +2543,18 @@ header {
   background-color: #1b283b;
 }
 
+.qt-case-study-main-block.light-theme .card:nth-child(6) {
+  background-color: #fff3e5;
+}
+
+.qt-case-study-main-block.dark-theme .card:nth-child(6) {
+  border: 1px solid #0159dc;
+
+  background-color: #1b283b;
+}
+
+
+
 .qt-case-study-img-wrap.light-theme {
   background-color: transparent;
   padding: 14px;
@@ -7554,3 +7566,20 @@ div#wave .dot:nth-child(3) {
   position: relative;
   padding: 10px;
 }
+
+
+
+.webinar-badge {
+  display: inline-block;
+  background-color: #0159DC;
+  color: white;
+  /* font-weight: bold; */
+  font-size: 2rem;
+  padding: 6px 40px 6px 14px;
+  position: relative;
+  margin-bottom: 1rem;
+  border-radius: 4px 0 0 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  clip-path: polygon(100% 0, 85% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%)
+}
+
