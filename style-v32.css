@@ -2572,7 +2572,7 @@ header {
 }
 
 
-/* .qt-case-study-main-block.light-theme .card:nth-child(1) {
+.qt-case-study-main-block.light-theme .card:nth-child(1) {
   background-color: #ffd9e9;
 }
 
@@ -2630,7 +2630,7 @@ header {
   border: 1px solid #0159dc;
 
   background-color: #1b283b;
-} */
+}
 
 
 
